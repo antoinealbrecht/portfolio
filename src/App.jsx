@@ -60,6 +60,9 @@ export default function Portfolio() {
 
         <section className="grid items-center gap-10 md:grid-cols-[1.3fr_0.7fr]">
           <div>
+            <div className="mb-5 inline-flex rounded-full border border-zinc-700 bg-zinc-900/70 px-4 py-2 text-sm text-zinc-300 shadow-lg">
+              Currently building full-stack, AI, and systems projects
+            </div>
             <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-zinc-400">
               Computer Science Student
             </p>
@@ -111,7 +114,7 @@ export default function Portfolio() {
             {projects.map((project) => (
               <article
                 key={project.title}
-                className="rounded-3xl border border-zinc-800 bg-zinc-900/50 p-6 shadow-xl transition hover:-translate-y-1 hover:border-zinc-600"
+                className="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-6 shadow-xl backdrop-blur transition duration-300 hover:-translate-y-2 hover:border-zinc-500 hover:bg-zinc-900"
               >
                 <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-2xl bg-zinc-800 text-zinc-100">
                   {project.icon}
