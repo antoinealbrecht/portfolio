@@ -162,7 +162,12 @@ export default function Portfolio() {
             I’m currently looking for software engineering internships and project opportunities.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
-            <a href="antoinealbrecht21@gmail.com" className="inline-flex items-center gap-2 rounded-2xl bg-zinc-950 px-5 py-3 text-sm font-semibold text-white">
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=antoinealbrecht21@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-2xl bg-zinc-950 px-5 py-3 text-sm font-semibold text-white"
+            >
               <Mail className="h-4 w-4" /> Email
             </a>
             <a href="https://github.com/antoinealbrecht" className="inline-flex items-center gap-2 rounded-2xl border border-zinc-300 px-5 py-3 text-sm font-semibold">
